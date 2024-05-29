@@ -10,7 +10,7 @@ The source is a preliminary version to be considered as a Proof Of Concept.
 If you want to contribute to this proeject of send video in mp4 to test the software, please contact us. 
 
 # Principle 
-The principle is to draw a simple skeleton on the person in order to detect the position of different key part such as ankles, shoulders, etc ... This difference of position for a given point of interest is reported in a time graphs in order to highlight rythm, difference between right and left. There is still some work to do in order to ease analysis and avoid wrong analysis. The list of work is : to normalize positions, to detect local extremum to detect impact on the floor, ... Then in a second time some use of ArUco, ChArUco or Diamond markers or boards. 
+The principle is to draw a simple skeleton using mediapipe and openCV on the person in order to detect the position of different key part such as ankles, shoulders, etc ... This difference of position for a given point of interest is reported in a time graphs in order to highlight rythm, difference between right and left. There is still some work to do in order to ease analysis and avoid wrong analysis. The list of work is : to normalize positions, to detect local extremum to detect impact on the floor, ... Then in a second time some use of ArUco, ChArUco or Diamond markers or boards from openCV. 
 In a nutshell, this is the first step tp developp a quality walking open source software.
 If you don't want to wait for the developpement of such a tool, you can find some very powerfull commercial software performing this kind of analysis and much more.
 
